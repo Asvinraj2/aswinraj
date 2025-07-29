@@ -8,7 +8,10 @@ const Card = ({ item: { title, des, icon } }) => {
         <div className="flex flex-col gap-6 sm:gap-8 md:gap-10 translate-y-10 group-hover:translate-y-0 transition-transform duration-500">
           <div className="w-10 h-8 flex flex-col justify-between">
             {icon ? (
-              <span className="text-4xl sm:text-5xl text-[var(--color-design)]">{icon}</span>
+              <span className="text-4xl sm:text-5xl text-[var(--color-design)]">
+                {icon && React.createElement(icon)}
+              </span>
+
             ) : (
               <>
                 <span className="w-full h-[2px] bg-[var(--color-design)] rounded inline-flex" />

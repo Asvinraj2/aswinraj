@@ -1,4 +1,5 @@
-// src/data/data.js
+// src/data/Data.js or Data.jsx
+
 import { AiFillAppstore } from "react-icons/ai";
 import { SiProgress } from "react-icons/si";
 
@@ -10,18 +11,17 @@ export const featuresData = [
   },
   {
     id: 2,
-    icon: AiFillAppstore,  // 🟢 PASS THE COMPONENT REFERENCE, NOT JSX
+    icon: AiFillAppstore, // ✅ No JSX
     title: "Back-End Development",
     des: "I develop secure APIs and server-side logic using Node.js, Express.js, and MongoDB for smooth data handling.",
   },
   {
     id: 3,
-    icon: SiProgress,
+    icon: SiProgress, // ✅ No JSX
     title: "Full-Stack Development",
     des: "I create full web apps with the MERN stack, combining clean UI with powerful backend integration.",
   },
 ];
-
 
 
 
