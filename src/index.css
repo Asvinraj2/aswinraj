@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import "tailwindcss";
+
+
+:root {
+  --color-body: #212428;
+  --color-light: #c4cfde;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
+
+@theme {
+  --color-design: #ff014f;
+  --color-light-text: #c4c4c4;
+  --shadow-shadow-one: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+@utility bannerIcon {
+  @apply w-16 h-16 bg-black/25 text-gray-200 text-xl inline-flex items-center justify-center rounded-md shadow-[var(--shadow-shadow-one)] hover:bg-black/40 hover:-translate-y-1 transition-all hover:text-[var(--color-design)] cursor-pointer duration-300;
+}
+
+@utility resumeLi {
+  @apply w-full h-20 bg-black/25 text-xl text-gray-300 flex justify-center cursor-pointer hover:bg-black/40 duration-300 items-center border border-gray-600 rounded-none;
+}
+
+@utility bgOpacity {
+  @apply bg-black/40;
+}
+
+@utility contactInput {
+  @apply w-full h-12 rounded-lg border-b border-b-gray-600 bg-[#191b1e] text-[var(--color-light-text)] px-4 focus:outline-none focus:outline-2 focus:outline-[var(--color-design)] focus:border-b-transparent duration-300;
+}
+
+@utility contactTextArea {
+  @apply w-full rounded-lg border-b border-b-gray-600 bg-[#191b1e] text-[var(--color-light-text)] px-4 py-2 focus:outline-none focus:outline-2 focus:outline-[var(--color-design)] focus:border-b-transparent duration-300 resize-none;
+}
+
+.active {
+  color: white;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
