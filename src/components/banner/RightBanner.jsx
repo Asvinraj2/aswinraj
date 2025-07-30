@@ -1,5 +1,5 @@
 import React from 'react';
-import { aswinpic,ChatGPT } from '../../assets/index';
+import { ChatGPT } from '../../assets/index';
 
 const RightBanner = () => {
   return (
