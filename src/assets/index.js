@@ -8,7 +8,6 @@ import testimonialOne from "./images/testmonial/testimonialOne.png";
 import testimonialTwo from "./images/testmonial/testimonialTwo.png";
 import quote from "./images/testmonial/quote.png";
 import contactImg from "./images/contact/contactImg.png";
-// import aswinpic from "./images/aswinpic.png"
 import imagify from "./images/projects/imagify.png"
 import imagify2 from "./images/projects/imagify2.png"
 import portfolio from "./images/projects/portfolio.png"
@@ -30,7 +29,6 @@ export {
   testimonialTwo,
   quote,
   contactImg,
-  // aswinpic,
   imagify,
   imagify2,
   portfolio,
