@@ -15,7 +15,7 @@ const Achievement = () => {
             2007 - 2010
           </p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            Company Experience
+            Technical Certifications
           </h2>
         </div>
         <div className="mt-8 sm:mt-10 md:mt-12 lg:mt-14 w-full border-l-[4px] sm:border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-6 sm:gap-8 md:gap-10">
@@ -49,7 +49,7 @@ const Achievement = () => {
             2010 - 2023
           </p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            Job Experience
+            What I Built, Learned, and Shipped
           </h2>
         </div>
         <div className="mt-8 sm:mt-10 md:mt-12 lg:mt-14 w-full border-l-[4px] sm:border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-6 sm:gap-8 md:gap-10">
