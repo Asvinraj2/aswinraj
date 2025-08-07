@@ -113,7 +113,7 @@ const Resume = () => {
     <section id="resume" className="w-full py-12 sm:py-16 lg:py-20 border-b border-b-black px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="text-[var(--color-design)] flex justify-center items-center text-center ">
-          <Title title="7+ YEARS OF EXPERIENCE" des="My Resume" />
+          <Title title="YEARS OF EXPERIENCE" des="My Resume" />
         </div>
         <div>
           <ul className="w-full grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4">

@@ -17,6 +17,9 @@ import geminiClone2 from "./images/projects/geminiClone2.png"
 import todo from "./images/projects/todo.jpeg"
 import freshbite from "./images/projects/freshbite.jpg"
 import ChatGPT from "./images/projects/ChatGPT.png"
+import aswinrajpic from "./images/aswinrajpic.png"
+import aswinraj2 from "./images/aswinraj2.png"
+import aswinLogo2 from "./images/aswinLogo2.png"
 
 export {
   logo,
@@ -37,5 +40,8 @@ export {
   geminiClone2,
   todo,
   freshbite,
-  ChatGPT ,
+  ChatGPT,
+  aswinrajpic,
+  aswinraj2,
+  aswinLogo2,
 };
