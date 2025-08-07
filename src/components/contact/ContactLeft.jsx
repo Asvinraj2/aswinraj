@@ -16,9 +16,7 @@ const ContactLeft = () => {
           MERN Stack Developer
         </p>
         <p className="text-sm sm:text-base text-gray-400 tracking-wide leading-relaxed">
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.dolor sit amet consectetur adipisicing elit. Facilis
-          ipsam autem cumque, accusantium dicta odio.
+          I'm a MERN Stack Developer skilled in MongoDB, Express.js, React.js, and Node.js, focused on building responsive UIs and robust backends for smooth user experiences.
         </p>
         <p className="text-sm sm:text-base text-gray-400 flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-2">
           <span>Phone:</span>
